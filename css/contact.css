@@ -1,0 +1,105 @@
+.header.ot-bar {
+  min-height: initial;
+}
+.top-header {
+  padding: 65px 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #f9f9f9, #fbfbfb);
+}
+.top-header h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  color: var(--main-color2);
+}
+.cont-sec {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.cont-sec .cont-sec-column:nth-child(1) {
+  flex: 0.5;
+}
+.cont-sec .cont-sec-column:nth-child(2) {
+  flex: 0.5;
+}
+.cont-sec .cont-sec-column {
+  padding: 45px;
+}
+.cont-sec .cont-sec-column h1 {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 18px;
+  text-align: left;
+  font-weight: 600;
+  color: var(--font-color1);
+}
+.cont-sec .cont-sec-column p {
+  font-size: 13px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+.cont-sec .cont-sec-column .contact-form {
+  width: 100%;
+}
+.cont-sec .cont-sec-column .contact-form p {
+  margin-bottom: 0;
+  width: 100%;
+}
+.cont-sec .cont-sec-column .contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.cont-sec .cont-sec-column .contact-form input,
+textarea {
+  margin-bottom: 12px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #d0d0d0ee;
+  outline: none;
+}
+.cont-sec .cont-sec-column .contact-form textarea {
+  height: 150px;
+  max-width: 100%;
+}
+.cont-sec .cont-sec-column .contact-form button {
+  width: 170px;
+  padding: 12px;
+  background-color: var(--main-color2);
+  color: #fff;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.cont-sec .cont-sec-column .cont-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 8px;
+  margin-top: 15px;
+}
+.cont-sec .cont-sec-column .cont-section .cont-box {
+  flex: 0.35;
+  padding: 30px 12px;
+  background: #fbfbfb;
+  margin-bottom: 12px;
+  text-align: left;
+  border-radius: 3px;
+}
+.cont-sec .cont-sec-column .cont-section .cont-box h2 {
+  font-size: 14px;
+  color: var(--font-color1);
+  font-weight: normal;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.cont-sec .cont-sec-column .cont-section .cont-box h3 {
+  font-size: 14px;
+  color: var(--font-color2);
+  font-weight: 500;
+}

@@ -417,3 +417,96 @@ section.sponsors .sponsors-sec img:hover {
     transform: translateX(calc(-250px * 9));
   }
 }
+
+/* footer */
+footer {
+  width: 100%;
+  background-color: #fbfbfb;
+  padding: 70px 0;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+footer .footer-main {
+  min-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer .footer-main .footer-column {
+  flex-basis: 300px;
+  text-align: left;
+}
+footer .footer-main .footer-column h1 {
+  font-size: 23px;
+  margin-bottom: 20px;
+  position: relative;
+}
+footer .footer-main .footer-column h1:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background-color: var(--font-color2);
+}
+footer .footer-main .footer-column p {
+  font-size: 13px;
+}
+footer .footer-main .footer-column .social-links {
+}
+footer .footer-main .footer-column .social-links p {
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+footer .footer-main .footer-column .social-links ul {
+  width: 80%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+footer .footer-main .footer-column .social-links ul li {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+footer .footer-main .footer-column .social-links ul li:hover a i {
+  color: var(--font-color4);
+}
+footer .footer-main .footer-column .social-links ul li a {
+  text-decoration: none;
+  color: #000;
+}
+footer .footer-main .footer-column .social-links ul li a i {
+  font-size: 20px;
+}
+footer .footer-main .footer-column .social-links p {
+  font-size: 15px;
+}
+footer .footer-main .footer-column .social-links p i {
+  font-size: 18px;
+}
+footer .footer-main .footer-column .use-full-links ul {
+  list-style: none;
+}
+footer .footer-main .footer-column .use-full-links ul li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+footer .footer-main .footer-column .use-full-links ul li a {
+  text-decoration: none;
+  color: var(--main-color);
+  transition: 0.3 ease;
+}
+footer .footer-main .footer-column .use-full-links ul li:hover a {
+  color: var(--font-color4);
+}
