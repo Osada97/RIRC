@@ -1,0 +1,263 @@
+.work-cont {
+  padding: 80px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.work-cont .work-main {
+  width: 80%;
+}
+.work-cont .work-main .work-row {
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.work-cont .work-main .work-row .work-col:nth-child(1) {
+  flex: 0.3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.work-cont .work-main .work-row .work-col:nth-child(2) {
+  flex: 0.7;
+}
+.work-cont .work-main .work-row .work-col:nth-child(1) .img-sec {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 4px dotted var(--font-color3);
+  overflow: hidden;
+}
+.work-cont .work-main .work-row .work-col:nth-child(1) .img-sec img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.work-cont .work-main .work-row .work-col .work-col-box {
+  background-color: #fdfdfd;
+  padding: 20px;
+  border: 1px solid #eee;
+  box-shadow: 0 0 12px #eee;
+}
+.work-cont .work-main .work-row .work-col .work-col-box .work-header {
+  border-bottom: 1px solid #eeee;
+}
+.work-cont
+  .work-main
+  .work-row
+  .work-col
+  .work-col-box
+  .work-header
+  .work-shop-nuber {
+  padding: 5px;
+  border-radius: 3px;
+}
+.work-cont
+  .work-main
+  .work-row
+  .work-col
+  .work-col-box
+  .work-header
+  .work-shop-nuber
+  h3 {
+  text-align: left;
+  font-size: 13px;
+  color: #ff0052;
+  font-weight: bold;
+}
+.work-cont
+  .work-main
+  .work-row
+  .work-col
+  .work-col-box
+  .work-header
+  .work-title {
+  width: 100%;
+}
+.work-cont
+  .work-main
+  .work-row
+  .work-col
+  .work-col-box
+  .work-header
+  .work-title
+  h1 {
+  font-size: 18px;
+  padding: 10px 0;
+  color: var(--font-color1);
+  font-weight: 500;
+}
+.work-cont
+  .work-main
+  .work-row
+  .work-col
+  .work-col-box
+  .work-body
+  .work-des
+  .sec-wrks {
+  margin-bottom: 15px;
+}
+.work-cont
+  .work-main
+  .work-row
+  .work-col
+  .work-col-box
+  .work-body
+  .work-des
+  .sec-wrks
+  h2 {
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: #1234d6;
+  font-weight: 500;
+}
+.work-cont
+  .work-main
+  .work-row
+  .work-col
+  .work-col-box
+  .work-body
+  .work-des
+  .sec-wrks
+  h3 {
+  font-size: 13px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.work-cont .work-main .work-row .work-col .work-col-box .work-body .work-bott {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.work-cont
+  .work-main
+  .work-row
+  .work-col
+  .work-col-box
+  .work-body
+  .work-bott
+  .work-time {
+  display: flex;
+  text-align: center;
+  padding: 10px 8px;
+  background-color: #eee;
+}
+.work-cont
+  .work-main
+  .work-row
+  .work-col
+  .work-col-box
+  .work-body
+  .work-bott
+  .work-time
+  h2 {
+  font-size: 13px;
+  margin-right: 12px;
+  font-weight: 500;
+}
+.work-cont
+  .work-main
+  .work-row
+  .work-col
+  .work-col-box
+  .work-body
+  .work-bott
+  .work-time
+  h2
+  i {
+  font-size: 15px;
+  margin-right: 5px;
+  color: #1234d6;
+}
+.work-cont
+  .work-main
+  .work-row
+  .work-col
+  .work-col-box
+  .work-body
+  .work-bott
+  .work-time
+  h2
+  sup {
+  font-size: 9px;
+}
+.work-cont
+  .work-main
+  .work-row
+  .work-col
+  .work-col-box
+  .work-body
+  .work-bott
+  .work-link {
+  padding: 4px 8px;
+  border: 2px solid #1234d6;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.work-cont
+  .work-main
+  .work-row
+  .work-col
+  .work-col-box
+  .work-body
+  .work-bott
+  .work-link:hover {
+  background-color: #1234d6;
+  color: #fff;
+}
+.work-cont
+  .work-main
+  .work-row
+  .work-col
+  .work-col-box
+  .work-body
+  .work-bott
+  .work-link:hover
+  a {
+  color: #fff;
+}
+.work-cont
+  .work-main
+  .work-row
+  .work-col
+  .work-col-box
+  .work-body
+  .work-bott
+  .work-link:hover
+  i {
+  color: #fff;
+}
+.work-cont
+  .work-main
+  .work-row
+  .work-col
+  .work-col-box
+  .work-body
+  .work-bott
+  .work-link
+  a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #1234d6;
+  font-weight: 500;
+  line-height: 25px;
+}
+.work-cont
+  .work-main
+  .work-row
+  .work-col
+  .work-col-box
+  .work-body
+  .work-bott
+  .work-link
+  i {
+  font-size: 14px;
+  margin-right: 8px;
+  color: #1234d6;
+}
