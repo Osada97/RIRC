@@ -9,7 +9,7 @@
 }
 .speakers .main-speakers {
   width: 80%;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 .speakers .main-speakers .heder {
   width: 100%;
@@ -41,22 +41,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-gap: 20px;
+  grid-gap: 35px;
   flex-wrap: wrap;
 }
 .speakers .main-speakers .speaker-body .main-speaker-card {
   width: 320px;
-  padding: 20px 15px;
-  border: 1px solid #eee;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  transition: box-shadow 0.3s ease;
 }
-.speakers .main-speakers .speaker-body .main-speaker-card:hover {
-  box-shadow: 0px 0px 12px #eee;
-}
+
 .speakers .main-speakers .speaker-body .main-speaker-card .image {
   width: 210px;
   height: 210px;
@@ -72,11 +67,17 @@
 .speakers .main-speakers .speaker-body .main-speaker-card .details {
   text-align: center;
   padding: 12px 8px;
-  background-color: #fbfbfb;
+  border-radius: 8px;
+  transition: 0.3s ease;
 }
+.speakers .main-speakers .speaker-body .main-speaker-card:hover .details {
+  background-color: #f7f7f7;
+}
+
 .speakers .main-speakers .speaker-body .main-speaker-card .details h1 {
   font-size: 16px;
   margin-bottom: 12px;
+  color: #1234d6;
 }
 .speakers .main-speakers .speaker-body .main-speaker-card .details p {
   font-size: 12px;
@@ -111,17 +112,13 @@
 .speakers .sub-speakers .speaker-body .main-speaker-card {
   width: 280px;
   padding: 20px 15px;
-  border: 1px solid #eee;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   transition: box-shadow 0.3s ease;
-  background: linear-gradient(120deg, #fbfbfb, #ffffff);
 }
-.speakers .sub-speakers .speaker-body .main-speaker-card:hover {
-  box-shadow: 0px 0px 12px #eee;
-}
+
 .speakers .sub-speakers .speaker-body .main-speaker-card .image {
   width: 190px;
   height: 190px;
@@ -137,11 +134,17 @@
 .speakers .sub-speakers .speaker-body .main-speaker-card .details {
   text-align: center;
   padding: 12px 8px;
-  background-color: #fbfbfb;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
 }
+.speakers .sub-speakers .speaker-body .main-speaker-card:hover .details {
+  background-color: #f7f7f7;
+}
+
 .speakers .sub-speakers .speaker-body .main-speaker-card .details h1 {
   font-size: 16px;
   margin-bottom: 12px;
+  color: #1234d6;
 }
 .speakers .sub-speakers .speaker-body .main-speaker-card .details p {
   font-size: 12px;
