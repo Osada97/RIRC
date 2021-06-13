@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <title>RIRC</title>
   </head>
   <body>
@@ -18,6 +19,22 @@
             </div>
           </div>
           <div class="nav-column">
+            <ul>
+              <a href="./index.html" class="active"><li>HOME</li></a>
+              <a href="#"><li>SUBMISSION</li></a>
+              <a href="#"><li>REGISTRATION</li></a>
+              <a href="#"><li>PROGRAM</li></a>
+              <a href="#"><li>AWARDS</li></a>
+              <a href="./seakers.html"><li>SPEAKERS</li></a>
+              <a href="#"><li>COMMITTEE</li></a>
+              <a href="./workshops.html"><li>WORKSHOPS</li></a>
+              <a href="./contact.html"><li>CONTACT</li></a>
+            </ul>
+          </div>
+          <div class="mobile-nav">
+            <button id="mobBut"><i class="fas fa-bars"></i></button>
+          </div>
+          <div class="nav-mobile-list hide">
             <ul>
               <a href="./index.html" class="active"><li>HOME</li></a>
               <a href="#"><li>SUBMISSION</li></a>
@@ -321,5 +338,20 @@
       src="https://kit.fontawesome.com/4f6c585cf2.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      let button = document.querySelector("#mobBut");
+      let menuList = document.querySelector(".nav-mobile-list");
+      let isList = false;
+
+      button.addEventListener("click", () => {
+        if (isList) {
+          menuList.classList.add("hide");
+          isList = false;
+        } else {
+          menuList.classList.remove("hide");
+          isList = true;
+        }
+      });
+    </script>
   </body>
 </html>

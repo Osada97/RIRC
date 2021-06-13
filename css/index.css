@@ -36,6 +36,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
 }
 .header nav .nav-column:nth-child(1) {
   flex: 0.2;
@@ -46,6 +47,9 @@
 .header nav .nav-column:nth-child(1) .logo h1 {
   font-size: 30px;
   color: var(--font-color2);
+}
+.header nav .nav-column:nth-child(1) .logo a {
+  text-decoration: none;
 }
 .header nav .nav-column:nth-child(2) ul {
   list-style: none;
@@ -65,6 +69,57 @@
 }
 .header nav .nav-column:nth-child(2) ul a.active {
   color: var(--font-color2);
+}
+/*mobile navigation section*/
+.header nav .mobile-nav {
+  display: none;
+  position: relative;
+  width: 100%;
+  text-align: right;
+}
+.header nav .mobile-nav button {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.header nav .mobile-nav button i {
+  font-size: 22px;
+  color: #fff;
+}
+.header nav .nav-mobile-list {
+  display: none;
+  position: absolute;
+  bottom: -420px;
+  right: 0;
+  width: 100%;
+  background-color: #fffffff5;
+  opacity: 1;
+  transition: 0.3s ease;
+}
+.header nav .nav-mobile-list ul a {
+  font-weight: 500;
+  color: #000;
+  transition: color 0.2s ease;
+}
+.header nav .nav-mobile-list ul a:hover {
+  color: var(--font-color4);
+}
+.header nav .nav-mobile-list.hide {
+  opacity: 0;
+}
+.header nav .nav-mobile-list ul {
+  width: 100%;
+  text-align: center;
+  list-style: none;
+}
+.header nav .nav-mobile-list ul li {
+  padding: 15px 0;
+}
+.header nav .nav-mobile-list ul a {
+  text-decoration: none;
+  font-size: 14px;
 }
 .header .main-hed {
   min-height: calc(100vh - 86px);
